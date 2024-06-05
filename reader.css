@@ -1,0 +1,94 @@
+body {    margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+
+  color: #333;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: system-ui,Arial,sans-serif;
+  font-size: 1.5em;
+
+  line-height : 1.5;
+  width : 50%;
+  margin : 0 auto;
+}
+
+.full-width{
+  display : block;
+  left: 50%;
+  margin-left: -35vw;
+  margin-right: -35vw;
+  max-width: 70vw;
+  position: relative;
+  right: 50%;
+  width: 70vw;
+  margin-bottom : 1rem;
+  margin-top : 1rem;
+}
+
+
+.blog-posts{
+
+  padding-left : 0;
+  list-style-type: none;
+
+}
+
+.blog-posts-item{
+  margin-bottom : 1rem;
+}
+
+.blog-post-link {
+  padding : 3px;
+  color : #333;
+  text-decoration: none;
+  font-weight: 600;
+  display : inline-block;
+}
+
+.blog-post-link:visited {
+  color: #805495;
+
+}
+.blog-post-link:hover {
+  background-color : #333;
+  color : #fff;
+}
+
+.blog-labels{
+  list-style-type: none;
+  padding-left : 0;
+
+}
+
+.blog-labels,
+.entry-labels {
+  font-size : 1rem;
+  display : block;
+}
+
+.blog-label,
+.entry-label {
+  margin-bottom : 5px;
+  margin-right : 5px;
+  display : inline-block;
+  border : 1px solid #ccc;
+}
+
+.blog-labels a,
+.entry-label  {
+  text-decoration : none;
+  color : #333;
+  padding : 3px;
+  margin-right : 3px;
+}
+.entry-label {margin-right : 5px;}
+
+.blog-labels a:hover ,
+.entry-labels a:hover {
+  background-color : #333;
+  color : #fff;
+}
